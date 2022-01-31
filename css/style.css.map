@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACCA,OAAO,CAAC,8EAAI;AACZ,OAAO,CAAC,kFAAI",
+    "sources": [
+        "../scss/style.scss",
+        "../scss/_config.scss",
+        "../scss/_responsive.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
