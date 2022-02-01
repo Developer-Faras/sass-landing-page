@@ -1,5 +1,32 @@
-// @media (max-width: 575px) {
-//     .nav-started-btn{
-//         display: none;
-//     }
-// }
+// Md And Up Breakpoint
+@media (min-width: 768px) {
+    .navbar{
+        .nav-item .nav-link{
+            border: none;
+        }
+
+        .buttn{
+            margin-left: 10px;
+        }
+    } 
+}
+
+// Md And Down
+@media (max-width: 767px) {
+    .navbar{
+        .nav-item .nav-link{
+            border: none;
+        }
+
+        .navbar-toggler{
+            box-shadow: none;
+            border: 2px solid $color-gray-4;
+            color: $color-blue;
+            transition: all 0.3s ease;
+
+            &.active{
+                border: 2px solid $color-blue;
+            }
+        }
+    } 
+}

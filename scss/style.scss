@@ -3,7 +3,35 @@
 // All Css Are Goes Haire
 
 
-// Navbar Design
+// Navbar Css
+.navbar{
+    background-color: rgba(255, 255, 255, 0.8);
+
+    .nav-item{
+        .nav-link{
+            font-size: 15px;
+            font-family: $font-dm;
+            font-weight: 500;
+            color: $color-gray;
+            border-bottom: 2px solid transparent;
+            margin: 0 7px;
+            padding: 4px 2px;
+            transition: all 0.3s ease;
+
+            &:hover,
+            &.active{
+                color: $color-black;
+                border-color: $color-blue;
+            }
+        }
+    }
+
+    // Btn Design
+    .buttn{
+        @include btnn($color-orange, $color-white);
+    }
+}
+
 
 
 
