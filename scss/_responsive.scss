@@ -28,5 +28,21 @@
                 border: 2px solid $color-blue;
             }
         }
-    } 
+    }
+
+
+}
+
+
+// Down Sm 
+@media (max-width: 520px) {
+    #hero .text-box {
+        .title{
+            font-size: 48px;
+            line-height: 60px;
+        }
+        .desc{
+            font-size: 18px;
+        }
+    }
 }

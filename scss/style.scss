@@ -3,9 +3,9 @@
 // All Css Are Goes Haire
 
 
-// Navbar Css
+// Navbar Design
 .navbar{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 1);
 
     .nav-item{
         .nav-link{
@@ -33,7 +33,52 @@
 }
 
 
+// Hero Design
+#hero{
+    padding-top: 7rem;
 
+    .text-box{
+        .title{
+            display: block;
+            font-size: 72px;
+            line-height: 78px;
+            letter-spacing: 1.5px;
+            color: $color-black;
+            font-family: $font-mulish;
+            font-weight: 900;
+        }
+        .desc{
+            font-size: 20px;
+            font-family: $font-mulish;
+            color: $color-gray;
+            font-weight: 500;
+            line-height: 30px;
+            margin-top: 1.5rem
+        }
+
+        .btns{
+            .buttn{
+                &.square{
+                    @include btnn($color-blue, $color-white);
+                    margin-right: 1rem;
+                }
+                &.round{
+                    width: 46px;
+                    height: 46px;
+                    font-size: 22px;
+                    font-weight: bold;
+                    color: $color-gray;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 100px;
+                    border: 1px solid $color-gray;
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+}
 
 
 
