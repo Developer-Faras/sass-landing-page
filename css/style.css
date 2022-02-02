@@ -150,6 +150,193 @@
   color: #696871;
 }
 
+#packages .top-tab-navs .title {
+  font-size: 60px;
+  line-height: 70px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #19191B;
+}
+
+#packages .top-tab-navs .tab-nav {
+  border: none;
+}
+
+#packages .top-tab-navs .tab-nav .nav-item {
+  border: none;
+}
+
+#packages .top-tab-navs .tab-nav .nav-item .nav-link {
+  border: none;
+  padding: 1rem 2rem;
+  background: #EAE9F2;
+  width: 150px;
+  height: 54px;
+  font-size: 16px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  color: #19191B;
+}
+
+#packages .top-tab-navs .tab-nav .nav-item .nav-link.active {
+  background: #5454D4;
+  color: #FFFFFF;
+}
+
+#packages .top-tab-navs .tab-nav .nav-item:first-child .nav-link {
+  border-radius: 4px 0px 0px 4px;
+}
+
+#packages .top-tab-navs .tab-nav .nav-item:last-child .nav-link {
+  border-radius: 0px 4px 4px 0px;
+}
+
+#packages .bottom-tabs-contents .card {
+  background: #F8F8F8;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#packages .bottom-tabs-contents .card .card-body {
+  padding: 3rem 2rem;
+}
+
+#packages .bottom-tabs-contents .card .card-body .subtitle {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  color: #696871;
+  font-weight: 500;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#packages .bottom-tabs-contents .card .card-body .title {
+  font-family: "Mulish", sans-serif;
+  color: #19191B;
+  font-weight: 800;
+  padding-bottom: 0.5rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#packages .bottom-tabs-contents .card .card-body .title .price {
+  font-size: 52px;
+}
+
+#packages .bottom-tabs-contents .card .card-body .title .price-time {
+  font-size: 24px;
+}
+
+#packages .bottom-tabs-contents .card .card-body .list {
+  list-style: none;
+  padding: 1rem 0;
+}
+
+#packages .bottom-tabs-contents .card .card-body .list li {
+  font-size: 17px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+  color: #696871;
+  padding: 0.5rem 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#packages .bottom-tabs-contents .card .card-body .card-started-btn {
+  padding: 1rem 0;
+  border-radius: 5px;
+  background: #FFFFFF;
+  color: #5454D4;
+  font-size: 16px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#packages .bottom-tabs-contents .card .card-body .card-started-btn:hover {
+  background: #5454D4;
+  color: #FFFFFF;
+}
+
+#packages .bottom-tabs-contents .card:hover {
+  background: #FF7143;
+}
+
+#packages .bottom-tabs-contents .card:hover .card-body .subtitle {
+  color: #FFFFFF;
+}
+
+#packages .bottom-tabs-contents .card:hover .card-body .title {
+  color: #FFFFFF;
+}
+
+#packages .bottom-tabs-contents .card:hover .card-body .list li {
+  color: #FFFFFF;
+}
+
+#packages .bottom-tabs-contents .card:hover .card-body .card-started-btn {
+  background: #FFFFFF;
+  color: #5454D4;
+}
+
+#packages .bottom-tabs-contents .card:hover .card-body .card-started-btn:hover {
+  background: #5454D4;
+  color: #FFFFFF;
+}
+
+#packages .bottom-tabs-contents .card.orange {
+  display: block;
+  background: #FF7143;
+  padding: 1.6rem 0;
+}
+
+#packages .bottom-tabs-contents .card.orange .subtitle {
+  color: #FFFFFF;
+}
+
+#packages .bottom-tabs-contents .card.orange .title {
+  color: #FFFFFF;
+}
+
+#packages .bottom-tabs-contents .card.orange .list li {
+  color: #FFFFFF;
+}
+
+#packages .bottom-tabs-contents .card.orange .card-started-btn {
+  background: #9F3919;
+  color: #FFFFFF;
+}
+
+#packages .bottom-tabs-contents .card.orange:hover {
+  background: #F8F8F8;
+}
+
+#packages .bottom-tabs-contents .card.orange:hover .card-body .subtitle {
+  color: #696871;
+}
+
+#packages .bottom-tabs-contents .card.orange:hover .card-body .title {
+  color: #19191B;
+}
+
+#packages .bottom-tabs-contents .card.orange:hover .card-body .list li {
+  color: #696871;
+}
+
+#packages .bottom-tabs-contents .card.orange:hover .card-body .card-started-btn {
+  background: #FFFFFF;
+  color: #5454D4;
+}
+
+#packages .bottom-tabs-contents .card.orange:hover .card-body .card-started-btn:hover {
+  background: #5454D4;
+  color: #FFFFFF;
+}
+
 @media (min-width: 768px) {
   .navbar .nav-item .nav-link {
     border: none;

@@ -152,6 +152,195 @@
 }
 
 
+// Packages
+#packages{
+    .top-tab-navs{
+        .title{
+            font-size: 60px;
+            line-height: 70px;
+            font-family: $font-dm;
+            font-weight: 700;
+            letter-spacing: 0px;
+            color: $color-black;
+        }
+
+        .tab-nav{
+            border: none;
+
+            .nav-item{
+                border: none;
+
+                .nav-link{
+                    border: none;
+                    padding: 1rem 2rem; 
+                    background: $color-gray-2;
+                    width: 150px;
+                    height: 54px;
+                    font-size: 16px;
+                    font-family: $font-mulish;
+                    font-weight: 700;
+                    color: $color-black;
+
+                    &.active{
+                        background: $color-blue;
+                        color: $color-white;
+                    }
+                }
+
+                &:first-child{
+                    .nav-link{
+                        border-radius: 4px 0px 0px 4px;
+                    }
+                }
+                &:last-child{
+                    .nav-link{
+                        border-radius: 0px 4px 4px 0px;
+                    }
+                }
+            }
+        }
+    }
+
+    .bottom-tabs-contents{
+
+        .card{
+            background: $color-gray-3;
+            transition: all 0.3s ease;
+
+            
+
+            .card-body{
+                padding: 3rem 2rem;
+
+                .subtitle{
+                    font-family: $font-dm;
+                    font-size: 18px;
+                    color: $color-gray;
+                    font-weight: 500;
+                    transition: all 0.3s ease;
+                }
+
+                .title{
+                    font-family: $font-mulish;
+                    color: $color-black;
+                    font-weight: 800;
+                    padding-bottom: 0.5rem;
+                    transition: all 0.3s ease;
+
+                    .price{
+                        font-size: 52px;
+                    }
+                    .price-time{
+                        font-size: 24px;
+                    }
+                }
+
+                .list{
+                    list-style: none;
+                    padding: 1rem 0;
+
+                    li{
+                        font-size: 17px;
+                        font-family: $font-mulish;
+                        font-weight: 500;
+                        color: $color-gray;
+                        padding: 0.5rem 0;
+                        transition: all 0.3s ease;
+                    }
+                }
+
+                .card-started-btn{
+                    padding: 1rem 0;
+                    border-radius: 5px;
+                    background: $color-white;
+                    color: $color-blue;
+                    font-size: 16px;
+                    font-family: $font-mulish;
+                    font-weight: 700;
+                    border: none;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+
+                    &:hover{
+                        background: $color-blue;
+                        color: $color-white;
+                    }
+                }
+            }
+
+            &:hover{
+                background: $color-orange;
+
+                .card-body{
+                    .subtitle{
+                        color: $color-white;
+                    }
+                    .title{
+                        color: $color-white;
+                    }
+                    .list li{
+                        color: $color-white;
+                    }
+                    .card-started-btn{
+                        background: $color-white;
+                        color: $color-blue;
+
+                        &:hover{
+                            background: $color-blue;
+                            color: $color-white;
+                        }
+                    }
+                }
+            }
+
+            &.orange{
+                display: block;
+                background: $color-orange;
+                padding: 1.6rem 0;
+
+                .subtitle{
+                    color: $color-white;
+                }
+                .title{
+                    color: $color-white;
+                }
+                .list li{
+                    color: $color-white;
+                }
+                .card-started-btn{
+                    background: $color-red;
+                    color: $color-white;
+                }
+
+                &:hover{
+                    background: $color-gray-3;
+    
+                    .card-body{
+                        .subtitle{
+                            color: $color-gray;
+                        }
+                        .title{
+                            color: $color-black;
+                        }
+                        .list li{
+                            color: $color-gray;
+                        }
+                        .card-started-btn{
+                            background: $color-white;
+                            color: $color-blue;
+    
+                            &:hover{
+                                background: $color-blue;
+                                color: $color-white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 
 
